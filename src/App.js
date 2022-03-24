@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="container">
       <div style={{ textAlign: "center", marginTop: "7%", marginBottom: "7%"}}>
-        <h1>Lorem Ipsum is simply dummy text</h1>
+        <h1 className="mb-4">Lorem Ipsum is simply dummy text</h1>
         <p>
           {" "}
           Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -59,7 +59,7 @@ function App() {
               />
         </div>
       </div>
-      <div style={{textAlign:"right"}}>
+      <div style={{textAlign:"right",marginBottom:"5%"}}>
         <h5>See More</h5>
       </div>
     </div>
